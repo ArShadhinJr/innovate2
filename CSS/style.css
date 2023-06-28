@@ -539,7 +539,7 @@ background: linear-gradient(52deg, rgba(63,157,251,1) 0%, rgba(104,89,251,1) 49%
 /* footer section start here */
 #footer {
   background: #48409C;
-  padding: 100px 0;
+  padding: 100px 0 20px;
 }
 #footer .footer-top p {
   width: 450px;
