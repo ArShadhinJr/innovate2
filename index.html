@@ -1,0 +1,616 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Inovate</title>
+
+    <link rel="stylesheet" href="../css/bootstrap.min.css" />
+    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="css/responsive.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600;700;800;900;1000&family=Open+Sans:wght@300;400;500;600;700;800&family=Paprika&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- ========================================
+                NAVBAR SECTION
+    ======================================== -->
+    <header class="header">
+      <div class="container">
+        <nav class="navbar navbar-expand-lg">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+              <img src="images/logo.png" alt="logo" class="nav-logo" />
+            </a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="offcanvas"
+              data-bs-target="#offcanvasWithBothOptions"
+              aria-controls="offcanvasWithBothOptions"
+            >
+              <span class="fs-2 text-white"
+                ><i class="fa-solid fa-bars"></i
+              ></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#"
+                    >Home</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#"
+                    >About</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#"
+                    >Service</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#"
+                    >Portfolio</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#"
+                    >Price</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#"
+                    >Blog</a
+                  >
+                </li>
+              </ul>
+              <form class="d-flex" role="search">
+                <button class="btn-web text-white" type="submit">
+                  Contact Us
+                </button>
+              </form>
+            </div>
+            <div
+              class="offcanvas offcanvas-start d-lg-none"
+              data-bs-scroll="true"
+              tabindex="-1"
+              id="offcanvasWithBothOptions"
+              aria-labelledby="offcanvasWithBothOptionsLabel"
+            >
+              <div class="offcanvas-header bg-canvas">
+                <h5 class="offcanvas-title" id="offcanvasWithBothOptionsLabel">
+                  <img src="images/logo.png" alt="logo" />
+                </h5>
+                <button
+                  type="button"
+                  class="btn-close"
+                  data-bs-dismiss="offcanvas"
+                  aria-label="Close"
+                ></button>
+              </div>
+              <div class="offcanvas-body bg-canvas">
+                <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#"
+                      >Home</a
+                    >
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#"
+                      >About</a
+                    >
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#"
+                      >Service</a
+                    >
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#"
+                      >Portfolio</a
+                    >
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#"
+                      >Price</a
+                    >
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#"
+                      >Blog</a
+                    >
+                  </li>
+                </ul>
+                <form class="d-flex" role="search">
+                  <button
+                    class="btn-web text-white d-block w-100"
+                    type="submit"
+                  >
+                    Contact Us
+                  </button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <!-- ========================================
+                BANNER SECTION
+    ======================================== -->
+    <section class="banner">
+      <div class="container row mx-auto text-white text-center">
+        <div class="col-lg-10 mx-auto">
+          <h1>You're unique. your website should be too.</h1>
+          <p>
+            A beautiful website passionately crafted for your small business.
+            Our Digital Agency development has changed the way brands and
+            businesses use technology for growing business.
+          </p>
+          <button class="btn-web me-3 text-capitalize">get free quoto</button>
+          <button class="btn-web-2 text-capitalize">Learn More</button>
+        </div>
+      </div>
+    </section>
+    <!-- ========================================
+                COUNTER SECTION
+    ======================================== -->
+    <section class="counter">
+      <div class="container">
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4">
+          <div class="col right-col">
+            <div class="h-100 text-center">
+              <h5>53k</h5>
+              <p class="card-text text-capitalize">Happy client</p>
+            </div>
+          </div>
+          <div class="col right-col">
+            <div class="text-center h-100">
+              <h5 class="card-title">10k</h5>
+              <p class="card-text">Projects Done</p>
+            </div>
+          </div>
+          <div class="col right-col">
+            <div class="text-center h-100">
+              <h5 class="card-title">120</h5>
+              <p class="card-text">Gets Award</p>
+            </div>
+          </div>
+          <div class="col">
+            <div class="text-center h-100">
+              <h5 class="card-title">16</h5>
+              <p class="card-text text-capitalize">operated years</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ========================================
+                CHOOSE SECTION
+    ======================================== -->
+    <section id="choose">
+      <div class="container">
+        <div class="row">
+          <div class="choose-right order-lg-1 order-2 col-lg-6">
+            <div class="col row choose-item">
+              <span class="circle rounded rounded-circle"> </span>
+              <span class="pera">
+                We solve real-world problems through people and the web.
+              </span>
+            </div>
+            <div class="col row choose-item">
+              <span class="circle rounded rounded-circle"> </span>
+              <span class="pera">
+                We make processes and technology work efficiently together.
+              </span>
+            </div>
+            <div class="col row choose-item">
+              <span class="circle rounded rounded-circle"> </span>
+              <span class="pera">
+                We advance improve existing technology through research and
+                development.
+              </span>
+            </div>
+            <div class="col row choose-item">
+              <span class="circle rounded rounded-circle"> </span>
+              <span class="pera">
+                We develop long-lasting and scalable solutions, relationships
+                partnerships.
+              </span>
+            </div>
+          </div>
+          <div class="choose-left order-1 text-center text-lg-start col-lg-6 oder-lg-2">
+            <h3 class="text-1 mb-2">Why Choose Us</h3>
+            <p class="pera mb-4 mx-auto mx-lg-0">
+              We are now a team of strategists, engineers, designers, and
+              marketers who both use and develop technology for a variety of
+              client needs.
+            </p>
+            <button class="btn-web">Contact Us</button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ========================================
+                SERVICES SECTION
+    ======================================== -->
+    <section id="services">
+      <div class="container">
+        <div class="row row-cols-1 row-cols-md-1 row-cols-lg-3 g-4">
+          <div class="col text-center">
+            <h3 class="text-1 mb-2">What We Do</h3>
+            <p class="pera mb-4">
+              We are now a team of strategists, engineers, designers, and
+              marketers who both use and develop technology
+            </p>
+            <button class="btn-web">Contact Us</button>
+          </div>
+          <div class="col text-center">
+            <div class="service-item">
+              <img src="images/services1.png" alt="services image" />
+              <h3 class="text-2 mt-5 mb-3">web Design & Dev</h3>
+              <p class="pera mb-4">
+                Social Media has changed the way we interact & do business while
+                creating
+              </p>
+              <a href="#" class="btn-service">Read more</a>
+            </div>
+          </div>
+          <div class="col text-center">
+            <div class="service-item">
+              <img src="images/services2.png" alt="services image" />
+              <h3 class="text-2 mt-5 mb-3">Software Dev</h3>
+              <p class="pera mb-4">
+                Content Marketing is the other fold of online advertisement. If
+                you are looking to build
+              </p>
+              <a href="#" class="btn-service">Read more</a>
+            </div>
+          </div>
+          <div class="col text-center">
+            <div class="service-item">
+              <img src="images/services3.png" alt="services image" />
+              <h3 class="text-2 mt-5 mb-3">Content Writing</h3>
+              <p class="pera mb-4">
+                Social Media has changed the way we interact & do business while
+                creating a new avenue.
+              </p>
+              <a href="#" class="btn-service">Read more</a>
+            </div>
+          </div>
+          <div class="col text-center">
+            <div class="service-item">
+              <img src="images/services4.png" alt="services image" />
+              <h3 class="text-2 mt-5 mb-3">Digital Marketing</h3>
+              <p class="pera mb-4">
+                Social Media has changed the way we interact & do business while
+                creating
+              </p>
+              <a href="#" class="btn-service">Read more</a>
+            </div>
+          </div>
+          <div class="col text-center">
+            <div class="service-item">
+              <img src="images/services5.png" alt="services image" />
+              <h3 class="text-2 mt-5 mb-3">Support & Training</h3>
+              <p class="pera mb-4">
+                Content Marketing is the other fold of online advertisement. If
+                you are looking to build
+              </p>
+              <a href="#" class="btn-service">Read more</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ========================================
+                IMPACT SECTION
+    ======================================== -->
+    <section id="impact">
+      <div class="container">
+        <div class="impact-up text-center text-lg-start">
+          <h2 class="text-1 mb-3">We create real impact</h2>
+          <p class="pera mx-auto mx-lg-0">
+            We design, build and support websites and apps for clients
+            worldwide. Create beautiful, eye-catching on-page messages without
+            the need for a developer.
+          </p>
+        </div>
+        <div class="impact-dowm text-center text-lg-start row">
+          <div class="impact-down-left col-lg-6">
+            <div class="col">
+              <div class="row">
+                <div class="col-lg-2">
+                  <img src="images/icon1.png" alt="icon" />
+                </div>
+                <div class="col-lg-10">
+                  <h3 class="text-2 my-4 mt-lg-0">Competitive analysis</h3>
+                  <p class="pera mb-5">
+                    With an all-new look and powerful features, Ekko is the best
+                    way to ensure success for your business.
+                  </p>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-lg-2">
+                  <img src="images/icon2.png" alt="icon" />
+                </div>
+                <div class="col-lg-10">
+                  <h3 class="text-2 my-4 mt-lg-0">Strategy And research</h3>
+                  <p class="pera mb-5">
+                    Save money and start building your website using the best
+                    tools available on the market today.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="impact-down-right col-lg-6 col-12">
+            <img src="images/banner.png" alt="banner" class="img-fluid"/>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ========================================
+                PLAN SECTION
+    ======================================== -->
+    <section id="plan">
+      <div class="container">
+        <div class="plan-up text-center">
+          <h3 class="text-1 mb-5">Choose The Right Plan</h3>
+        </div>
+        <div class="plan-down">
+          <div class="row row-cols-1 row-cols-lg-3 row-col-md-1 g-4">
+            <div class="col">
+              <div class="plan-item text-center">
+                <h3 class="text-2 mb-3">Basic</h3>
+                <img src="images/plan1.png" alt="plan1" />
+                <h2 class="dolar-amount">
+                  <span class="dolar-sign">$</span> 160
+                </h2>
+                <p class="pera">
+                  Responsive Design Dynamic Elements Service Pages Custom Design
+                  & Features
+                </p>
+              </div>
+            </div>
+            <div class="col">
+              <div class="plan-item text-center">
+                <h3 class="text-2 mb-3">Professional</h3>
+                <div class="impact-img">
+                  <img src="images/plan2.png" alt="plan1" class="img-fluid" />
+                </div>
+                <h2 class="dolar-amount">
+                  <span class="dolar-sign">$</span> 240
+                </h2>
+                <p class="pera">
+                  Responsive Design Dynamic Elements Service Pages Custom Design
+                  & Features
+                </p>
+              </div>
+            </div>
+            <div class="col">
+              <div class="plan-item text-center">
+                <h3 class="text-2 mb-3">Exclusive</h3>
+                <img src="images/plan5.png" alt="plan1" class="img-bg" />
+                <h2 class="dolar-amount">
+                  <span class="dolar-sign">$</span> 325
+                </h2>
+                <p class="pera">
+                  Responsive Design Dynamic Elements Service Pages Custom Design
+                  & Features
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ========================================
+                REVIEW SECTION
+    ======================================== -->
+    <section id="review">
+      <div class="container">
+        <div class="review-up text-center">
+          <h3 class="text-1 mb-5">What The People Thinks About Us</h3>
+        </div>
+        <div class="row">
+          <div class="review-down text-center col-lg-11 mx-auto">
+            <div class="review-item">
+              <i class="fa-solid fa-less-than arrow-left d-none d-lg-inline"></i
+              ><i class="fa-solid fa-greater-than arrow-right d-none d-lg-inline"></i>
+              <div class="reviewer">
+                <img
+                  src="images/reviewer.png"
+                  alt=""
+                  class="rounded rounded-circle"
+                />
+              </div>
+              <div class="review-star">
+                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+              ><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+              ><i class="fa-solid fa-star"></i>
+              </div>
+              <p class="text-4">
+                Lesser Replenish bearing they’re him cattle kind dominion. You
+                which fill place. Land she’d subdue divided gathering blessed
+                seasons it. Without, wherein days.
+              </p>
+              <h5 class="text-3">Lukan Depina</h5>
+              <p class="pera">Ceo And Head Of Idea</p>
+              <div class="review-sild-icon d-lg-none">
+                <i class="fa-solid fa-less-than arrow-md-left"></i
+              ><i class="fa-solid fa-greater-than arrow-md-right"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ========================================
+                POST SECTION
+    ======================================== -->
+    <section id="post">
+      <div class="container">
+        <div class="post-up text-md-center">
+          <h3 class="text-1 mb-5">You May Also Like</h3>
+        </div>
+        <div class="post-down">
+          <div class="row mb-5">
+            <div class="col-lg-4 col-md-5 offset-lg-1">
+              <img src="images/news.png" alt="news" class="img-fluid" />
+            </div>
+            <div class="col-lg-6 col-md-7 offset-lg-1">
+              <div>
+                <span class="pera-3">News</span>
+                <span class="pera-3">By</span>
+                <span class="pera-3">Tomas Nikelson</span>
+                <span class="pera-3">Posted</span>
+                <span class="pera-3">5 Hours Ago</span>
+                <h4 class="text-5 my-lg-4 my-md-2">
+                  Punto Pago Allows Quick And Secure Payments For Services In
+                  Panama
+                </h4>
+                <a href="#" class="btn-service">Read more</a>
+              </div>
+            </div>
+          </div>
+          <div class="row mb-5">
+            <div class="col-lg-4 col-md-5 offset-lg-1">
+              <img src="images/news.png" alt="news" class="img-fluid" />
+            </div>
+            <div class="col-lg-6 col-md-7 offset-lg-1">
+              <div>
+                <span class="pera-3">News</span>
+                <span class="pera-3">By</span>
+                <span class="pera-3">Tomas Nikelson</span>
+                <span class="pera-3">Posted</span>
+                <span class="pera-3">5 Hours Ago</span>
+                <h4 class="text-5 my-lg-4 my-md-2">
+                  The User Can Also Replenish A Balance Make Remittances
+                </h4>
+                <a href="#" class="btn-service">Read more</a>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-4 col-md-5 offset-lg-1">
+              <img src="images/news.png" alt="news" class="img-fluid" />
+            </div>
+            <div class="col-lg-6 col-md-7 offset-lg-1">
+              <div>
+                <span class="pera-3">News</span>
+                <span class="pera-3">By</span>
+                <span class="pera-3">Tomas Nikelson</span>
+                <span class="pera-3">Posted</span>
+                <span class="pera-3">5 Hours Ago</span>
+                <h4 class="text-5 my-lg-4 my-md-2">
+                  Replenish a User Can Also Replenish A Balance Make Remittances
+                </h4>
+                <a href="#" class="btn-service">Read more</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ========================================
+                FOOTER SECTION
+    ======================================== -->
+    <footer id="footer">
+      <div class="container">
+        <div class="footer-top row">
+          <div class="col-lg-6 footer-left">
+            <img src="images/logo.png" alt="logo" class="mb-lg-5 mb-3" />
+            <p class="pera-4 mb-4">
+              Install any demo or template with a single click. You can mix and
+              match all the demos & templates. Every demo can be turned into one
+              or multi-page.
+            </p>
+          </div>
+          <div class="col-lg-6 col-md-12 footer-right row">
+            <div class="col-lg-4 col-md-4">
+              <h4 class="text-3">Features</h4>
+              <ul>
+                <li><a href="#" class="pera-5 mb-4 d-block">Home</a></li>
+                <li><a href="#" class="pera-5 mb-4 d-block">About</a></li>
+                <li><a href="#" class="pera-5 mb-4 d-block">Benifit</a></li>
+                <li><a href="#" class="pera-5 mb-4 d-block">Pricing</a></li>
+                <li><a href="#" class="pera-5 mb-4 d-block">Blog</a></li>
+              </ul>
+            </div>
+            <div class="col-lg-4 col-md-4">
+              <h4 class="text-3">Products</h4>
+              <ul>
+                <li>
+                  <a href="#" class="pera-5 mb-4 d-block">Task Management</a>
+                </li>
+                <li>
+                  <a href="#" class="pera-5 mb-4 d-block">Company growth</a>
+                </li>
+                <li>
+                  <a href="#" class="pera-5 mb-4 d-block">Time tracking</a>
+                </li>
+              </ul>
+            </div>
+            <div class="col-lg-4 col-md-4">
+              <h4 class="text-3">Support</h4>
+              <ul>
+                <li>
+                  <a href="#" class="pera-5 mb-4 d-block">Customer service</a>
+                </li>
+                <li>
+                  <a href="#" class="pera-5 mb-4 d-block">Accessibility</a>
+                </li>
+                <li><a href="#" class="pera-5 mb-4 d-block">Contact us</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="footer-bottom row text-md-center text-lg-start">
+          <div class="footer-bottom-left col-lg-6 order-lg-1 order-md-2">
+            <p class="pera-4 ">@20201 Innovate.All rights reserved.</p>
+          </div>
+          <div class="footer-bottom-right col-lg-6 order-md-1 order-lg-2">
+            <p class="float-lg-end float-md-center">
+              <span class="text-white me-5">Privacy policy</span>
+              <span class="text-white">Terms & condition</span>
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="../js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>

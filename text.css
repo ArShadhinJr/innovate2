@@ -1,0 +1,68 @@
+.pera {
+  font-size: 14px;
+  line-height: 21px;
+}
+.pera-2 {
+  font-size: 14px;
+  line-height: 21px;
+}
+.pera-3 {
+  font-size: 13px;
+  line-height: 16px;
+}
+.pera-4 {
+  font-size: 14px;
+  line-height: 21px;
+}
+.pera-5 {
+  font-size: 15px;
+}
+.text-1 {
+  font-size: 24px;
+  line-height: 50px;
+}
+.text-2 {
+  font-size: 20px;
+  line-height: 27px;
+}
+.text-3 {
+  font-size: 18px;
+  line-height: 27px;
+}
+.text-4 {
+  font-size: 18px;
+  line-height: 31px;
+}
+.text-5 {
+  font-size: 20px;
+  line-height: 40px;
+  letter-spacing: -1.5px;
+}
+
+.btn-web {
+  padding: 10px 20px;
+  font-size: 14px;
+}
+.btn-web-2 {
+  padding: 10px 20px;
+  font-size: 14px;
+}
+.btn-service {
+  padding: 10px 20px;
+  font-size: 14px;
+}
+/* .btn-service::before {
+  content: "";
+  width: 27px;
+  height: 40px;
+  border-radius: 0 100px 100px 0;
+  background: #19bf004f;
+  position: absolute;
+  top: 7;
+  right: 0;
+  transition: 1s;
+}
+.btn-service:hover::before {
+  width: 100%;
+  border-radius: 100px;
+} */
