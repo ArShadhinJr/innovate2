@@ -391,7 +391,7 @@ background: linear-gradient(52deg, rgba(63,157,251,1) 0%, rgba(104,89,251,1) 49%
 #plan .dolar-sign {
 	position: absolute;
 	top: 5px;
-	left: -25px;
+    left: -30%;
 	font-size: 24px;
 	color: #1bbf00;
 }
